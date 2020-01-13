@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARMDataManager", "ARMDataMa
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ACME.Data", "ACME.Data\ACME.Data.sqlproj", "{5FB325FF-07B0-413C-AF9E-D60257C4F4F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARM.UI.WPF", "ARM.UI.WPF\ARM.UI.WPF.csproj", "{56FEEFE8-69DF-4547-A07C-83A90C688685}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{5FB325FF-07B0-413C-AF9E-D60257C4F4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB325FF-07B0-413C-AF9E-D60257C4F4F3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5FB325FF-07B0-413C-AF9E-D60257C4F4F3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{56FEEFE8-69DF-4547-A07C-83A90C688685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FEEFE8-69DF-4547-A07C-83A90C688685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FEEFE8-69DF-4547-A07C-83A90C688685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FEEFE8-69DF-4547-A07C-83A90C688685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
