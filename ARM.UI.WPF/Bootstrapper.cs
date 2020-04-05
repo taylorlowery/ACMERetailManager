@@ -11,15 +11,14 @@ namespace ARM.UI.WPF
 {
     public class Bootstrapper : BootstrapperBase
     {
-        private SimpleContainer _container = new SimpleContainer();
+        private readonly SimpleContainer _container = new SimpleContainer();
 
         public Bootstrapper()
         {
             Initialize();
         }
 
-        protected override void Configure()
-        {
+        protected override void Configure(){
             _container.Instance(_container);
 
             // declare application singletons
@@ -27,7 +26,7 @@ namespace ARM.UI.WPF
                 .Singleton<IWindowManager, WindowManager>()
                 .Singleton<IEventAggregator, EventAggregator>();
 
-            // register viewmodels
+            // register view models
             GetType().Assembly.GetTypes()
                 .Where(type => type.IsClass)
                 .Where(type => type.Name.EndsWith("ViewModel"))
